@@ -1,3 +1,8 @@
+class String
+	def number?
+		return true if self =~ /[+-]?([0-9]*[.])?[0-9]+/
+	end
+end
 
 module Tippy
 	class Builder

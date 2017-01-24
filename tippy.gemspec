@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'tippy/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "tippy"
+  spec.name          = "tippy_technov"
   spec.version       = Tippy::VERSION
   spec.authors       = ["novneetnov"]
   spec.email         = ["novneet346iith@gmail.com"]
